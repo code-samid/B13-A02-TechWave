@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+}
+
+body{
+    background: rgba(26, 11, 46, 1);
+    color: #FFFFFF;
+}
+
+
+nav{
+    border: 2px solid white;
+    max-width: 1600px;
+    height: 92px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between
+    
+}
+
+nav>p{
+    border:  solid rgba(0, 0, 0, 1);
+    font-size: 30px;
+    font-weight: 900;
+    width: 219px;
+    margin-left: 50px;
+}
+
+#color-logo {
+  background: linear-gradient(
+    to right,
+    /* rgba(247, 233, 63, 1), */
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav>div{
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    
+}
+
+.subscibe-btn{
+    
+    background: linear-gradient(
+    to right,
+    rgba(247, 233, 63, 1),
+    rgba(251, 9, 180, 1),
+    rgba(145, 0, 248, 1)
+     );
+     font-size: 16px;
+    border: 135px;
+    padding: 16px 25px;
+    border-radius: 25px;
+    margin-right: 50px;
+}
+
+nav>span{
+    margin-right: 5px;
+    display: none;
+
+}
+
+
+.banner-container{
+    max-width: 1600px;
+    min-height: 760px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-bg{
+    max-width: 1600px;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    nav>p{
+        height: 60px;
+        margin-left: 0;
+        font-size: 20px;
+        align-content: center;
+    }
+    
+    nav>div{
+        display: none;
+    }
+
+    .subscibe-btn{
+        display: none;
+    }
+
+    nav>span{
+    margin-right: 10px;
+    display: inline;
+}
+}
