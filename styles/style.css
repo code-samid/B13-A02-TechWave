@@ -161,8 +161,37 @@ nav>span{
     
 }
 
+.about{
+    /*max-width: 75%;
+    margin-left: 12%; */
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 50px 25%;
+}
+.about>h1{
+    margin-top: 130px;
+}
 
+.join{
+    margin-top: 16px;
+}
 
+.about-cards{
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+.about-cards h1{
+    color: #00FF88;
+}
 
 
 
@@ -262,6 +291,13 @@ nav>span{
     border-radius: 20px;
     padding: 8px 25px;
     
+}
+
+.about{
+    margin-right: 10%;
+}
+.about p{
+    max-width: 100%;
 }
 
 
