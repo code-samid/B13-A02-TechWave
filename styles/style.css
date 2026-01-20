@@ -16,7 +16,7 @@ body{
 
 
 nav{
-    border: 2px solid white;
+    border: 2px solid rgba(26, 11, 46, 1);
     max-width: 1600px;
     height: 92px;
     display: flex;
@@ -165,16 +165,31 @@ nav>span{
 .about{
     /*max-width: 75%;
     margin-left: 12%; */
-    margin: 0 auto;
+    max-width: 1600px; 
+
+    /* margin: 0 auto;
     display: grid;
     place-items: center;
     align-items: center;
     text-align: center;
     gap: 16px;
-    padding: 50px 25%;
+    padding: 50px 25%; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 100px 25%;
 }
 .about>h1{
     margin-top: 130px;
+    font-size: 2.5rem;
+
+}
+
+.about>p{
+    color:  var(--#FFFFFF, rgba(255, 255, 255, 1));
 }
 
 .join{
@@ -472,7 +487,7 @@ box-5 img{
 .footer-section {
     width: 100%;
     /* background-color: #0d0628;  */
-    background-image: url('assets/footer-bg.png'); 
+    background-image: url('../assets/footer-bg.png'); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -650,6 +665,7 @@ box-5 img{
 .about-cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
 
 
